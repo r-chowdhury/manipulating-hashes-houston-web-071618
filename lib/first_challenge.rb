@@ -14,10 +14,10 @@ def first_challenge
   }
 
   #your code here
-  contacts["Freddy Mercy"].each do |data, attribute|
+  contacts["Freddy Mercy"].each do |data|
   
-    if attribute == :favorite_icecream_flavors
-      attribute.each do |flavors|
+    if data == :favorite_icecream_flavors
+      data.each do |flavors|
         flavors.delete_if {|flavor| flavor == 'strawberry'}
       end 
     end 
