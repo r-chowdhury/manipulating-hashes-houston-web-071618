@@ -12,7 +12,6 @@ def second_challenge
   
   groceries.values.each do |section_list|
     list_of_groceries = section_list.collect do |item|
-      list_of_groceries.push(item)
     end 
   end 
   
