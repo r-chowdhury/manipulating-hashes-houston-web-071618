@@ -13,5 +13,10 @@ def second_challenge
   groceries.values.each do |section_list|
     section_list.each do |item|
       list_of_groceries.push(item)
+    end 
+  end 
+  
+  
+  return list_of_groceries  
 
 end
