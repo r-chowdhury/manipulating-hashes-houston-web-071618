@@ -10,7 +10,8 @@ def second_challenge
 
   list_of_groceries = []
   
-  groceries.values.collect do |section_list|
-    section_list
+  groceries.values.each do |section_list|
+    section_list.each do |item|
+      list_of_groceries.push(item)
 
 end
