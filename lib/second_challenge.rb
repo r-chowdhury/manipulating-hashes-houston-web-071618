@@ -8,6 +8,9 @@ def second_challenge
 
   #code your solution here!
 
-  return groceries.values  
+  list_of_groceries = []
+  
+  groceries.values.collect do |section_list|
+    section_list
 
 end
